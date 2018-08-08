@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Blogger Sans";
+  src: url("./../../fonts/Blogger_Sans.otf") format("opentype");
+}
+
+.my-card {
+  height: 50rem;
+  background-color: #1b3b48;
+  padding: 3rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.my-card__title {
+  font-size: 10rem;
+  font-weight: 100;
+  color: #ffbc49;
+  font-family: "Blogger Sans", Arial, sans-serif;
+}
+
+.my-card__section {
+  text-align: center;
+}
+
+.my-card__number {
+  font-size: 5rem;
+  font-family: "Blogger Sans", Arial, sans-serif;
+  color: white;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.my-card__desc {
+  font-family: "Blogger Sans", Arial, sans-serif;
+  color: whitesmoke;
+  font-size: 3rem;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.my-card__footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem;
+  padding: 0;
+}
+
+.my-card__footer-logo {
+  height: 8rem;
+}
